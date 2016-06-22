@@ -1,0 +1,8 @@
+{
+  "name": "strata",
+  "version": "1.0.0",
+  "devDependencies": {
+    "pug": "^0.1.0",
+    "stylus": "^0.54.5"
+  }
+}
