@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+    link(rel='stylesheet', href='./style.css')
+    title Strata
+  body
+  .container
+    .col-sm-12.col-md-12.col-lg-4
+      include ./header.jade
+      include ./footer.jade
+    .col-sm-12.col-md-12.col-lg-8
+      include ./mainInfo.jade
+      include ./articles.jade
+      include ./communication.jade
+      include ./footer.jade
+
