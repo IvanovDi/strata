@@ -1,4 +1,3 @@
-
 header.mainHeader
   .mainHeader__content
     img(src="./images/avatar.png").mainHeader__avatar
@@ -7,25 +6,27 @@ header.mainHeader
       | a super simple
       | responsive site template freebie
       | crafted by 
-      a.mainHeader__link HTML5 UP
+      a.link HTML5 UP
   .mainFooter
     ul.mainFooter__icon
-      li
-        a.icon__twiter
-      li
-        a.icon__git
-      li
-        a.drible
-      li
-        a.mail
+      li.mainFooter__item
+        a.twiter.link
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+      li.mainFooter__item.link
+        a.git.link
+          <i class="fa fa-github" aria-hidden="true"></i>
+      li.mainFooter__item
+        a.drible.link
+          <i class="fa fa-dribbble" aria-hidden="true"></i>
+      li.mainFooter__item
+        a.mail.link
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
     ul.mainFooter__footerInfo
-      li
+      li.mainFooter__item
         |copyright
-      li
-        |Design
-        a
-        |HTML5 UP
-      li
-        |demo images:
-        a
-        |unsplash 
+      li.mainFooter__item.item_border
+        |Design 
+        a.link HTML5 UP
+      li.mainFooter__item
+        |demo images: 
+        a.link Unsplash 

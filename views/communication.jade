@@ -10,11 +10,19 @@
         textarea(cols="67" rows="10" value="Message")
         br
         button.btn.btn__send Send Message
-    col-md-3
+    .col-md-3
       ul.communication__listContacts
-        li.communication__listContacts_home 1234 Somewhere Rd.
-        | Nashville, TN 00000
-        | United States
-        li.communication__listContacts_tel 000-000-0000
-        li.communication__listContact_mail
-          a.link(href="#") hello@untitled.tld
+        li
+          p.communication__listContacts_home 1234 Somewhere Rd.<br><br> Nashville, TN 00000<br><br>United States
+            <i class="icon fa fa-home" aria-hidden="true"></i>
+
+        
+        li
+          p.communication__listContacts_tel 000-000-0000
+            <i class="icon_tel fa fa-mobile" aria-hidden="true"></i>
+
+        li
+          p.communication__listContact_mail
+            <i class="icon fa fa-envelope-o" aria-hidden="true"></i>
+            a.link(href="#") hello@untitled.tld
+               

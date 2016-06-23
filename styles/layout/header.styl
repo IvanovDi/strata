@@ -3,16 +3,11 @@
 
 .mainHeader
   bottom 0rem
-  background url('./images/bg.jpg') center / cover no-repeat
+  background url('./images/bg.jpg'), url('./images/overlay.png') center / cover no-repeat
   height 100vh
   z-index 1
   position relative
 
-
-.mainHeader:after
-  background url('./images/overlay.png')center /cover no-repeat  
-  height 100vh
-  z-index 2
 
 .mainHeader__content
   position absolute
@@ -28,26 +23,30 @@
 strong
   color #fff
 
-.mainHeader__link
-  text-decoration none
-  border-bottom dotted
-
-.mainHeader__link:hover
-  color #49bf9d
-  dispalay block
-  cursor pointer
-
 .mainFooter
+  text-align: right
   position absolute
   bottom 2rem
   right 1rem
-  width 50%
+  width 100%
+  padding 0 2.2rem
 
 .mainFooter__icon
-  dispalay inline
+  font-size 1.9rem
+  
 
-.mainFooter__footerInfo
-  dispalay inline
+.mainFooter__item
+  display inline-block
+
+.item_border
+  border-left: solid 1px grey
+  border-right: solid 1px grey
+  padding 0 .6rem
+  margin 0 .6rem
 
 
-
+.drible,
+.git,
+.mail,
+.twiter
+  border-bottom none
