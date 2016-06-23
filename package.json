@@ -2,6 +2,7 @@
   "name": "strata",
   "version": "1.0.0",
   "devDependencies": {
+    "jade": "^1.11.0",
     "pug": "^0.1.0",
     "stylus": "^0.54.5"
   }
