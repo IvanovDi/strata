@@ -8,13 +8,12 @@ html(lang='en')
     title Strata
   body
     .row
-      .col-sm-12.col-md-12.col-lg-4
+      .col-sm-12.col-md-12.col-lg-4.sidebar
         include ./header.jade
         include ./footer.jade
-      .col-sm-12.col-md-12.col-lg-8
-        .containerContent
-          include ./mainInfo.jade
-          include ./articles.jade
-          include ./communication.jade
-          include ./footer.jade
+      .col-sm-12.col-md-12.col-lg-6.col-lg-offset-4.main
+        include ./mainInfo.jade
+        include ./articles.jade
+        include ./communication.jade
+        include ./footer.jade
 
